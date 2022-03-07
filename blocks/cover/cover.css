@@ -1,0 +1,47 @@
+.cover {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    min-height: 740px;
+    max-width: 1184px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.cover:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 500ms ease-in-out;
+}
+
+.cover:hover:before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        min-height: 640px;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        min-height: 480px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        min-height: 200px;
+        max-width: 320px;
+    }
+}

@@ -1,0 +1,18 @@
+.header {
+  padding: 28px 48px 0 48px;
+  background-color: #2A2C2F;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 28px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 16px 16px 0 16px;
+  }
+}
