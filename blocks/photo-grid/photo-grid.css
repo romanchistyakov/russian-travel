@@ -6,6 +6,7 @@
     justify-items: center;
     max-width: 1184px;
     margin: 0 auto;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 1279px) {
